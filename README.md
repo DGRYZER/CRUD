@@ -16,7 +16,9 @@ npx json-server Backend/db.json –watch port 4000
 (*** Port number can be anything except 3000 ***)
 
 We have to use two terminals – 
+
 1st terminal for JSON Server.
+
 2nd terminal for npm start
 
 
