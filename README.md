@@ -3,11 +3,15 @@
 This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app).
 
 Package Installation command in terminal of Visual Studio – 
+
 axios - npm install axios.
+
 Router - npm install react-router-dom
+
 JSON Server - npm install json-server
 
 Command to connect UI with JSON Server – 
+
 npx json-server Backend/db.json –watch port 4000  
 (*** Port number can be anything except 3000 ***)
 
