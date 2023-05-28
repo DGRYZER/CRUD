@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 0px 15px red;
+    border-bottom: 2px solid white;
+}
+
+#nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 15px white;
+}
+
+#myForm{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm>form{
+    height: 310px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgb(17, 200, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myForm>form>input{
+    padding-left: 15px;
+}
+
+#myForm>form>label{
+font-size: 17px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+#myForm>form>input{
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    border: navajowhite;
+    background-color: antiquewhite;
+    outline: none;
+    font-size: 17px;
+}
+
+#myForm>form>button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(96, 214, 240);
+}
+
+#myForm>form>button:hover{
+    background-color: blue;
+    color: yellow;
+}
+
+#myForm>form>button:focus{
+    background-color: red;
+    color: yellow;
+}
+
+
+#homePage{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#card{
+    height: 250px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px blue;
+}
+
+#card>table>tr>td,th{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons{
+    height: 30px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 16px;
+    background-color: rgb(46, 251, 183);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons:hover{
+background-color: rgb(239, 239, 70);
+}
+
+.buttons:focus{
+    background-color: rgb(249, 140, 140);
+}
+
+#update{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
